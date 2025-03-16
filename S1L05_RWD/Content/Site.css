@@ -17,3 +17,13 @@ body {
     margin-bottom: 60px;
     background-color: var(--light);
 }
+
+@media (max-width: 700px) {
+    div #myCarousel {
+        display: none;
+    }
+}
+
+button {
+    margin: 10px;
+}
